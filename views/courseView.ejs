@@ -1,0 +1,41 @@
+<%- include('./header.ejs') %>
+<br />
+<br />
+<br>
+<br>
+<br>
+<br>
+<h1>Course View</h1>
+<div class="container">
+    <table class="table table-border">
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Address</th>
+            <th>Course</th>
+            <th>Phone</th>
+
+        </tr>
+      
+            <!-- console.log(item) -->
+            <tr>
+            
+                <td><%= d._id %></td>
+                <td><%= d.name %></td>
+                <td><%= d.email %></td>
+                <td><%= d.city %></td>
+                <td><%= d.address %></td>
+                <td><%= d.course %></td>
+                <td><%= d.phone %></td>
+                
+            </tr>
+    
+
+
+       
+    </table>
+</div>
+
+<%- include('./footer.ejs')  %>

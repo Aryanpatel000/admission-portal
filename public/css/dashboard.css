@@ -1,0 +1,52 @@
+.carousel {
+  position: relative;
+}
+
+.dashpage {
+  padding-top: 104px;
+  height: 474px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.course_para {
+  font-size: 20px;
+  font-family: "Droid Serif", sans-serif;
+}
+
+.container {
+  background-color: #a2a2e0ad;
+}
+
+@media (min-width: 1400px){
+.container {
+max-width: 1523px;
+}
+}
+
+.mb-5 {
+  margin-bottom: 1rem!important;
+  margin: auto;
+}
+.mb-4 {
+margin-bottom: 0.5rem!important;
+}
